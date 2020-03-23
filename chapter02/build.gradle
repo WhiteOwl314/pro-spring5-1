@@ -1,0 +1,20 @@
+subprojects {
+    /* 폴더구조 */
+    group 'com.apress.prospring5.ch02'
+    /* java 이용 */
+    apply plugin: 'java'
+
+   /* configurations : java 의존그룹 */ 
+    /*compile: 프로젝트를 컴파일할때 
+    필요한 의존 라이브러리들*/
+    /*의존파일을 build/libs에 복사한다*/
+    task copyDependencies(type:Copy){
+        from configurations.compile
+        into 'build/libs'
+    }
+    /*의존성 파일들*/
+    dependencies{
+        compile spring.context, misc.slf4jJcl, misc.logback
+        testCompile testing.junit
+    }
+}
