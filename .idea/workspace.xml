@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d815b52-403c-4780-a4bc-538445238f7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/DeclareSpringComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/HelloWorldMessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/StandardOutMessageRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/setter-injection/src/main/resources/spring/app-context-annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/setter-injection/src/main/resources/spring/app-context-xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/HelloWorldConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/StandardOutMessageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/StandardOutMessageRenderer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -84,10 +80,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter02/hello-world/src/main/java/com/apress/prospring5/ch2/annotated/HelloWorldConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/HelloWorldConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="198">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,11 +91,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter02/hello-world/src/main/java/com/apress/prospring5/ch2/annotated/HelloWorldSpringAnnotated.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/resources/spring/app-context-xml.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="180">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/StandardOutMessageRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/DeclareSpringComponents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,10 +184,11 @@
         <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/Dependency.java" />
         <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/XmlConfigWithBeanFactory.java" />
         <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/resources/spring/app-context-annotation.xml" />
-        <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/resources/spring/app-context-xml.xml" />
         <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/HelloWorldMessageProvider.java" />
-        <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/StandardOutMessageRenderer.java" />
         <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/DeclareSpringComponents.java" />
+        <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/HelloWorldConfiguration.java" />
+        <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/resources/spring/app-context-xml.xml" />
+        <option value="$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/StandardOutMessageRenderer.java" />
       </list>
     </option>
   </component>
@@ -187,62 +209,6 @@
             <path>
               <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
               <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ch2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ch2" type="462c0819:PsiDirectoryNode" />
-              <item name="annotated" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
@@ -296,6 +262,17 @@
               <item name="setter-injection" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ch3" type="462c0819:PsiDirectoryNode" />
+              <item name="annotated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="setter-injection" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,6 +306,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -353,7 +331,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XmlConfigWithBeanFactory">
+  <component name="RunManager" selected="Application.DeclareSpringComponents">
+    <configuration name="DeclareSpringComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch3.DeclareSpringComponents" />
+      <module name="pro-spring-5.chapter03.setter-injection.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring5.ch3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DependencyPull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch3.DependencyPull" />
       <module name="pro-spring-5.chapter03.dependency-pull.main" />
@@ -406,32 +397,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pro-spring-5 [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeclareSpringComponents" />
         <item itemvalue="Application.XmlConfigWithBeanFactory" />
         <item itemvalue="Application.DependencyPull" />
         <item itemvalue="Application.HelloWorldSpringAnnotated" />
         <item itemvalue="Application.HelloWorldSpringDI" />
-        <item itemvalue="Gradle.pro-spring-5 [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -447,18 +419,18 @@
       <updated>1584885917609</updated>
       <workItem from="1584885921587" duration="5562000" />
       <workItem from="1584967164033" duration="1381000" />
-      <workItem from="1584974994665" duration="16207000" />
+      <workItem from="1584974994665" duration="17978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23150000" />
+    <option name="totallyTimeSpent" value="24921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.22859451" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.22859451" />
       <window_info id="Structure" order="1" sideWeight="0.50141245" side_tool="true" weight="0.19224556" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -468,13 +440,13 @@
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32909605" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -774,23 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/resources/spring/app-context-xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/DeclareSpringComponents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/resources/spring/app-context-annotation.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -810,23 +765,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/StandardOutMessageRenderer.java">
+    <entry file="file://$PROJECT_DIR$/chapter02/hello-world/src/main/java/com/apress/prospring5/ch2/annotated/HelloWorldSpringAnnotated.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="288">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/hello-world/src/main/java/com/apress/prospring5/ch2/annotated/HelloWorldConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="252">
           <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -834,10 +785,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/hello-world/src/main/java/com/apress/prospring5/ch2/annotated/HelloWorldSpringAnnotated.java">
+    <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/HelloWorldConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/resources/spring/app-context-xml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/annotated/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/setter-injection/src/main/java/com/apress/prospring5/ch3/DeclareSpringComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

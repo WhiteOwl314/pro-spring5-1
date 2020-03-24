@@ -21,6 +21,8 @@ public class StandardOutMessageRenderer implements MessageRenderer {
         System.out.println(messageProvider.getMessage());
     }
 
+    //context:component-scan 이 Autowired가 보이면 주입해준다
+    //@Resource(name="messageProvider")와도 같은 기능
     @Override
     @Autowired
     public void setMessageProvider(MessageProvider provider) {
