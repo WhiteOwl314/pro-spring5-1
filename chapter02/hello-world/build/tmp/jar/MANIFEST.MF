@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Iuliana Cosmina
+Specification-Title: Pro Spring 5
+Main-Class: com.apress.prospring5.ch2.HelloWorldSpringDI
+Class-Path: spring-context-5.0.10.RELEASE.jar jcl-over-slf4j-1.7.25.jar 
+ logback-classic-1.2.3.jar spring-aop-5.0.10.RELEASE.jar spring-beans-5.
+ 0.10.RELEASE.jar spring-expression-5.0.10.RELEASE.jar spring-core-5.0.1
+ 0.RELEASE.jar slf4j-api-1.7.25.jar logback-core-1.2.3.jar spring-jcl-5.
+ 0.10.RELEASE.jar
+
