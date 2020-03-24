@@ -4,4 +4,6 @@ include 'chapter02:hello-world'
 
 include 'chapter03:dependency-pull'
 include 'chapter03:cdl'
+include 'chapter03:constructor-injection'
+findProject(':chapter03:constructor-injection')?.name = 'constructor-injection'
 
