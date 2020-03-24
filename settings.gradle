@@ -3,4 +3,5 @@ rootProject.name = 'pro-spring-5'
 include 'chapter02:hello-world'
 
 include 'chapter03:dependency-pull'
+include 'chapter03:cdl'
 

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d815b52-403c-4780-a4bc-538445238f7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter03/dependency-pull/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/dependency-pull/src/main/java/com/apress/prospring5/ch3/DependencyPull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/ContextualizedDependencyLookup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/ManagedComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
@@ -22,6 +22,8 @@
     <ignored path="$PROJECT_DIR$/chapter03/build/" />
     <ignored path="$PROJECT_DIR$/chapter03/dependency-pull/.gradle/" />
     <ignored path="$PROJECT_DIR$/chapter03/dependency-pull/build/" />
+    <ignored path="$PROJECT_DIR$/chapter03/cdl/.gradle/" />
+    <ignored path="$PROJECT_DIR$/chapter03/cdl/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,20 +84,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/dependency-pull/src/main/java/com/apress/prospring5/ch3/DependencyPull.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/cdl/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter03/dependency-pull/src/main/java/com/apress/prospring5/ch3/DependencyPull.java">
+        <entry file="file://$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/ContextualizedDependencyLookup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="288">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/ManagedComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/Container.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -109,11 +151,21 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/dependency-pull/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -143,13 +195,17 @@
         <option value="$PROJECT_DIR$/chapter02/hello-world/src/main/java/com/apress/prospring5/ch2/annotated/HelloWorldSpringAnnotated.java" />
         <option value="$PROJECT_DIR$/chapter02/hello-world/src/main/java/com/apress/prospring5/ch2/annotated/HelloWorldConfiguration.java" />
         <option value="$PROJECT_DIR$/chapter03/build.gradle" />
-        <option value="$PROJECT_DIR$/chapter03/dependency-pull/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/chapter03/dependency-pull/src/main/java/com/apress/prospring5/ch3/DependencyPull.java" />
+        <option value="$PROJECT_DIR$/chapter03/dependency-pull/build.gradle" />
+        <option value="$PROJECT_DIR$/chapter03/cdl/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/ManagedComponent.java" />
+        <option value="$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/Container.java" />
+        <option value="$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/ContextualizedDependencyLookup.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="640" />
     <option name="width" value="640" />
     <option name="height" value="800" />
@@ -170,26 +226,26 @@
             <path>
               <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
               <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
               <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dependency-pull" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
               <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dependency-pull" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
               <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dependency-pull" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter02" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hello-world" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
@@ -197,7 +253,33 @@
               <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
               <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dependency-pull" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -206,7 +288,7 @@
               <item name="pro-spring-5" type="b2602c69:ProjectViewProjectNode" />
               <item name="pro-spring-5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="chapter03" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="dependency-pull" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cdl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -236,6 +318,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.apress.prospring5.ch3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chapter03/dependency-pull" />
       <recent name="$PROJECT_DIR$/chapter02/hello-world/src/main/resources/spring" />
@@ -354,18 +439,18 @@
       <updated>1584885917609</updated>
       <workItem from="1584885921587" duration="5562000" />
       <workItem from="1584967164033" duration="1381000" />
-      <workItem from="1584974994665" duration="7701000" />
+      <workItem from="1584974994665" duration="8586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14644000" />
+    <option name="totallyTimeSpent" value="15529000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="640" y="0" width="640" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858758" weight="0.3896321" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.22859451" />
       <window_info id="Structure" order="1" sideWeight="0.50141245" side_tool="true" weight="0.19224556" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -386,6 +471,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" x="0" y="0" width="270" height="600" id="Documentation" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -534,10 +620,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/dependency-pull/build.gradle">
+    <entry file="file://$PROJECT_DIR$/chapter03/dependency-pull/src/main/java/com/apress/prospring5/ch3/DependencyPull.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="180">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -548,19 +637,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/chapter03/dependency-pull/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/dependency-pull/src/main/java/com/apress/prospring5/ch3/DependencyPull.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/cdl/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/ManagedComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/cdl/src/main/java/com/apress/prospring5/ch3/ContextualizedDependencyLookup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>

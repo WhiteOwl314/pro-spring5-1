@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/chapter02" />
             <option value="$PROJECT_DIR$/chapter02/hello-world" />
             <option value="$PROJECT_DIR$/chapter03" />
+            <option value="$PROJECT_DIR$/chapter03/cdl" />
             <option value="$PROJECT_DIR$/chapter03/dependency-pull" />
           </set>
         </option>
