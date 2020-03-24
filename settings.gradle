@@ -6,4 +6,6 @@ include 'chapter03:dependency-pull'
 include 'chapter03:cdl'
 include 'chapter03:constructor-injection'
 findProject(':chapter03:constructor-injection')?.name = 'constructor-injection'
+include 'chapter03:setter-injection'
+findProject(':chapter03:setter-injection')?.name = 'setter-injection'
 

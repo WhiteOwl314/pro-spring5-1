@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/chapter03/cdl" />
             <option value="$PROJECT_DIR$/chapter03/constructor-injection" />
             <option value="$PROJECT_DIR$/chapter03/dependency-pull" />
+            <option value="$PROJECT_DIR$/chapter03/setter-injection" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
