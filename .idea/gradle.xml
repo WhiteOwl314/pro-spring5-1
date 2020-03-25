@@ -12,10 +12,16 @@
             <option value="$PROJECT_DIR$/chapter02" />
             <option value="$PROJECT_DIR$/chapter02/hello-world" />
             <option value="$PROJECT_DIR$/chapter03" />
+            <option value="$PROJECT_DIR$/chapter03/bean-aliases" />
             <option value="$PROJECT_DIR$/chapter03/cdl" />
+            <option value="$PROJECT_DIR$/chapter03/collections" />
             <option value="$PROJECT_DIR$/chapter03/constructor-injection" />
             <option value="$PROJECT_DIR$/chapter03/dependency-pull" />
             <option value="$PROJECT_DIR$/chapter03/field-injection" />
+            <option value="$PROJECT_DIR$/chapter03/injection" />
+            <option value="$PROJECT_DIR$/chapter03/method-injection" />
+            <option value="$PROJECT_DIR$/chapter03/method-replacement" />
+            <option value="$PROJECT_DIR$/chapter03/nesting" />
             <option value="$PROJECT_DIR$/chapter03/setter-injection" />
             <option value="$PROJECT_DIR$/chapter03/simple-types" />
           </set>
